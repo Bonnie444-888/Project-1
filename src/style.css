@@ -1,0 +1,97 @@
+.section {
+  color: #ffa8a8;
+  display: block;
+  margin: 10px 200px;
+  background: linear-gradient(
+    111.1deg,
+    rgb(0, 40, 70) -4.8%,
+    rgb(255, 115, 115) 82.7%,
+    rgb(255, 175, 123) 97.2%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+hr {
+  border-color: #393e46;
+  border-style: solid;
+  border-width: 1px;
+}
+h1 {
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+  border: solid #0a243d;
+  border-width: 1px;
+  padding: 20px;
+  margin: 5px 200px;
+  border-radius: 6px;
+}
+h2 {
+  font-weight: 200;
+  text-align: center;
+}
+img {
+  width: 500px;
+  display: block;
+  margin: 20px auto;
+}
+p {
+  color: #0a243d;
+  text-align: inherit;
+  line-height: 1.5;
+}
+a {
+  color: #0a243d;
+  text-align: center;
+}
+a:hover {
+  background-color: #0a243d;
+  color: #fec969;
+}
+.Verses {
+  display: flex;
+  justify-content: center;
+}
+.Verse1 {
+  color: #fec969;
+  text-decoration: none;
+}
+.Verse1:hover {
+  color: #fec969;
+}
+.Verse2 {
+  color: #fec969;
+  text-decoration: none;
+}
+.Verse2:hover {
+  color: #fec969;
+}
+.Verse3 {
+  color: #fec969;
+  text-decoration: none;
+}
+.Verse3:hover {
+  color: #fec969;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #0a243d;
+  background: #0a243d;
+  color: #ffa8a8;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #86609c;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+button:hover {
+  background: #ffa8a8;
+  color: #0a243d;
+  border: 1px solid #0a243d;
+}
+.Coder {
+  color: #0a243d;
+}
